@@ -332,7 +332,7 @@ padding-top: 30px;
         margin-top: 50px;
     }
     .t1{
-        float: inline-start !important; 
+        float: left !important; 
         margin-top: 10px !important;
         width: 200px;
     }
