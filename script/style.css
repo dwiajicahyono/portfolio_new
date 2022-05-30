@@ -1,0 +1,364 @@
+/* Scroll on top */
+#button {
+    display: inline-block;
+    background-color: #00BAC7;
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  .exp{
+      color:#ffffff;
+  }
+  
+  /* #button::after {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  } */
+  #button:hover {
+    cursor: pointer;
+    background-color: #0ddceb;
+  }
+  #button:active {
+    background-color: #0ddceb;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+/* Navbar */
+.btn{
+    border-radius: 100px;
+    text-transform: none;
+    display: inline-flex;
+}
+.brand-logo{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+li{
+ font-family: 'DM Sans', sans-serif;
+ font-weight: 400;
+}
+.navbar{
+    background-color: #2F364B;
+    box-shadow: none;
+    
+}
+
+/* Hero */
+#Hero{
+    background-color: #2F364B;
+    color: #ffff;
+    font-family: 'DM Sans', sans-serif;
+ font-weight: 400;
+ padding-top: 20px;
+}
+.jweb{
+    font-size: 40px;
+    font-weight: 500;
+}
+.dweb{
+    color: rgba(255, 255, 255, 0.8);
+    text-align: justify;
+}
+.t2{
+    float: left !important;
+    margin-top: 10rem;
+    text-align: left;
+    padding-left: 0px !important;
+}
+.t1{
+    float:right !important;
+    margin-top: 5rem;
+    width: 280px;
+}
+
+.about{
+    margin-top: 50px;
+    background: #00BAC7;
+box-shadow: 0px 15px 30px rgba(0, 186, 199, 0.33);
+border-radius: 100px;
+    
+}
+.panah{
+
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.sosmedJudul{
+padding-top: 108px;
+color: rgba(255, 255, 255, 0.4);
+display: flex;
+}
+.sosmed{
+    width: 30px;
+height: 2px;
+background: rgba(255, 255, 255, 0.4);
+margin-right: 20px;
+margin-top: 25px ;
+}
+
+.sosmedIcon, .sosgbr{
+    margin-right: 15px;
+    float: left;
+    margin-bottom: 69px;
+}
+
+/* About Me Section */
+.ame{
+padding-top: 100px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 34px;
+line-height: 44px;
+color: #272D3E;
+}
+
+.kame{
+margin-top: 22px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 44px;
+text-align: center;
+color: #272D3E;
+
+}
+
+.lame{
+    width: 172px;
+    height: 0px;
+    border: 5px solid #000000;  
+    margin-top: 97PX;
+    margin-bottom: 260px; 
+
+}
+/* SKill */
+#Skill{
+    background-color: #5800C7;
+    color: #ffff;
+    font-family: 'DM Sans';
+    font-weight: 500;
+   
+
+}
+.jskill{
+    padding-top: 100px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    
+}
+.sicon{
+    width: 100px;
+    margin-top: 64px;
+    display: flex;
+    padding-bottom: 24px;
+}
+.spn{
+    margin-bottom: 100px;
+}
+/* Proyek */
+#Proyek{
+    color: #272D3E;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    margin-bottom: 150px;
+}
+.jproyek{
+    padding-top: 80px;
+    padding-bottom: 34px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+}
+#Kontak{
+    background-color: #272D3E;
+    color: #ffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    
+}
+.jkontak{
+    font-weight: 500;
+    font-size: 44px;
+    padding-top: 200px;
+
+}
+.skontak{
+    margin-top: 300px;
+    font-weight: 500;
+    font-size: 32px;
+}
+.garis{
+        width: 90px;
+        height: 0px;
+        border: 5px solid #ffff;  
+        margin-top: 5PX;
+    
+    
+}
+.ket{
+    margin-top: 45px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.ketbwh{
+    display: block;
+    padding-bottom: 45px;
+    margin:0px;
+}
+
+/* Footer */
+.gkontak{
+    display: flex;
+}
+.ekontak {
+    padding-left: 15px;
+}
+.lemail{
+    padding-bottom: 120px;
+}
+.footer-copyright{
+    margin-top: 100px;
+    font-family: 'DM Sans';
+    color: rgba(255, 255, 255, 0.6);
+}
+/* mengecilkan logo dan responsif lainnya */
+
+ @media only screen and (max-width: 1400px) {
+     .jweb{
+         font-size: 30px;
+     }
+    .brand-logo{
+        font-size: 26px !important;
+    }
+
+    a.navres{
+        font-size: 14px !important;
+    }
+    /* .ame{
+        font-size: 22px;
+    } */
+    .kame{
+        margin-top: 50px;
+        font-size: 16px;
+    }
+    .lame{
+        margin-bottom: 100px !important;
+    }
+
+    .t1{
+        margin-top: 5rem !important;
+        width: 230px;
+    }
+
+ } 
+
+ @media only screen and (max-width: 1200px) {
+    .brand-logo{
+        font-size: 24px !important;
+    }
+
+    a.navres{
+        font-size: 13px !important;
+    }
+
+ } 
+
+ @media only screen and (max-width: 1100px) {
+    .brand-logo{
+        font-size: 18px !important;
+    }
+
+    a.navres{
+        font-size: 11px !important;
+    }
+
+ } 
+
+ @media only screen and (max-width: 992px) {
+    .brand-logo{
+        font-size: 22px !important;
+    }
+    .brand-logo,ul{
+        padding: auto;
+    }
+    .t2{
+       text-align: justify;
+       padding-left: 0px !important;
+       margin-top: 10rem;
+   }
+
+   .t1{
+       text-align: center;
+       margin-top: 10rem;
+   }
+   .skontak{
+    margin-top: 200px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    font-size: 22px;
+}
+.jkontak{
+padding-top: 30px;
+}
+
+}
+
+@media only screen and (max-width: 600px) {
+    .jweb{
+        font-size: 28px;
+    }
+    .t2{
+        margin-top: 50px;
+    }
+    .t1{
+        float: inline-start !important; 
+        margin-top: 10px !important;
+        width: 200px;
+    }
+    .skontak{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 500;
+        font-size: 22px;
+        
+    }
+    .sosmedJudul{
+        padding-top: 50px !important;
+    }
+}
+
+@media only screen and (max-width: 379px) {
+    
+    .brand-logo{
+        font-size: 14px !important;
+    }
+    
+}
+
+@media only screen and (max-width: 241px) {
+    .brand-logo{
+        visibility: hidden;
+    }
+
+}
