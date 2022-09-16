@@ -22,6 +22,8 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
+  <!-- Aos  -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -74,7 +76,7 @@
               karena itu saya membuat website ini dengan tujuan untuk memperkenalkan diri saya ke khalayak umum dan juga
               sebagai implementasi bahasa pemograman maupun framework yang sudah saya pelajari sejauh ini.
             </p>
-            
+
             <a class="navres waves-effect waves-light btn about" href="#Aboutme">Tentang Saya <i
                 class="small material-icons panah"> arrow_forward</i>
             </a>
@@ -96,7 +98,7 @@
   </section>
   <!-- End Hero -->
   <!-- About Me -->
-  <section id="Aboutme" class="container">
+  <section id="Aboutme" class="container" data-aos="fade-up"  data-aos-duration="3000">
     <center>
       <h2 class="ame">
         Tentang Saya
@@ -117,8 +119,8 @@
   </section>
   <!-- End Aboutme -->
   <!-- Skill -->
-  <section id="Skill">
-    <center class="container">
+  <section id="Skill" >
+    <center class="container"  data-aos="zoom-out" data-aos-duration="3000">
       <h2 class="jskill">Skill</h2>
       <div class="row">
         <div class="col s6 m6 l3 "><img src="src/logo_skill/AI.png" alt="Adobe Illustrator" class="sicon"></img>Adobe
@@ -148,7 +150,7 @@
       <div class="row">
 
         <!-- Card 1 -->
-        <div class="col s12 m6 l3 kartu">
+        <div class="col s12 m6 l3 kartu" data-aos="zoom-in-up" data-aos-duration="1000">
           <div class="card kartu">
             <div class="card-image">
               <img src="src/Thumbnail_Project/Thum_2.png">
@@ -164,7 +166,7 @@
         </div>
         <!-- End Card 1 -->
         <!-- Card 2 -->
-        <div class="col s12 m6 l3">
+        <div class="col s12 m6 l3" data-aos="zoom-in-up" data-aos-duration="2000">
           <div class="card kartu">
             <div class="card-image">
               <img src="src/Thumbnail_Project/Thum_3.png">
@@ -181,7 +183,7 @@
         </div>
         <!-- End Card 2 -->
         <!-- Card 3 -->
-        <div class="col s12 m6 l3 kartu">
+        <div class="col s12 m6 l3 kartu" data-aos="zoom-in-up" data-aos-duration="3000">
           <div class="card kartu">
             <div class="card-image">
               <img src="src/Thumbnail_Project/Thum_1.png">
@@ -197,7 +199,7 @@
         </div>
         <!-- End Card 3 -->
         <!-- Card 4 -->
-        <div class="col s12 m6 l3 ">
+        <div class="col s12 m6 l3 " data-aos="zoom-in-up" data-aos-duration="4000">
           <div class="card kartu">
             <div class="card-image">
               <img src="src/Thumbnail_Project/Thum_4.png">
@@ -274,6 +276,10 @@
   <!-- Compiled and minified JavaScript -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="script/script.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
